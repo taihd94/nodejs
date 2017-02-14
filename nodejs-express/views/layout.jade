@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    ul
+      li my list
+      li my list 2 sdf
+      li amsdlfefadf
+      li asdfawelkfad
+    input(type = 'text').class-name#anyid
+    - var condition = true
+    - var array = [1,2,3]
+    if condition
+      p It's true
+    each value in array
+      li= value
+    block content

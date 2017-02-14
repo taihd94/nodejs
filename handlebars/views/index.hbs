@@ -1,0 +1,16 @@
+<h1>{{ title }}</h1>
+<p> Wellcome to {{ title}} </p>
+{{#if condition }}
+    true
+{{ else }}
+    false
+{{/if}}
+
+{{#each anyArray}}
+    <p>{{this}}</p>
+{{/each}}
+<form action="/test/submit" method="post">
+    First name: <input type="text" name="fname"><br>
+    Last name: <input type="text" name="lname"><br>
+    <button type="submit">Submit</button>
+</form>

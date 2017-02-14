@@ -1,0 +1,8 @@
+{
+  "name": "09-mongoose-tutorial",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "mongoose": "^4.8.2"
+  }
+}
